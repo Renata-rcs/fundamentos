@@ -9,7 +9,7 @@ export default function Objetos() {
     { marca: "Ferrari", modelo: "La Ferrari", cor: "Vermelha", foto: "" },
     { marca: "VM", modelo: "Fusca", cor: "Prata", foto: "" },
     { marca: "GM", modelo: "Cobalt", cor: "Branco", foto: "" },
-  ];
+  ]
 
   return (
     <Pagina style={{ backgroundColor: "#6c757d",  padding: "2rem", marginBottom: "2rem"}} styleh1={{ color: "white", textAlign: "center"}}titulo="Objetos">
@@ -17,5 +17,5 @@ export default function Objetos() {
         <p key={item.id}> {item.marca}</p>
       ))}
     </Pagina>
-  );
+  )
 }

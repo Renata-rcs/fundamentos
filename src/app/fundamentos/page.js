@@ -13,7 +13,6 @@ export default function Fundamentos() {
         <br />
         <Link href="../clientes">Página Clientes</Link>
         <br />
-        <br />
         <Link href="/carros">Página Carros</Link>
         <br />
         <Link href="/array">Página Array</Link>
@@ -23,5 +22,5 @@ export default function Fundamentos() {
         <Cabecalho titulo="Fundamentos" />
       </Container>
     </>
-  );
+  )
 }

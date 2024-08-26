@@ -12,11 +12,11 @@ export default function Clientes() {
       <Link href="/">Página Inicial</Link>
       <br />
       <Link href="/fundamentos">Fundamentos</Link>
-      <br /> <br />
+      <br />
       <Link href="/carros">Página Carros</Link>
       <br />
       <Link href="/array">Página Array</Link>
-      
+
       <Table striped bordered hover>
         <thead>
           <tr>
@@ -47,5 +47,5 @@ export default function Clientes() {
         </tbody>
       </Table>
     </main>
-  );
+  )
 }
