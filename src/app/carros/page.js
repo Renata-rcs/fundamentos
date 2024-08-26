@@ -51,13 +51,7 @@ export default function Carros() {
 
   return (
     <Pagina
-      style={{
-        backgroundColor: "rgb(220, 220, 220)",
-        color: "black",
-        textAlign: "left",
-        marginBottom: "2rem",
-        padding: "5rem",
-      }}
+      style={{backgroundColor: "rgb(220, 220, 220)", color: "black", textAlign: "left", marginBottom: "2rem", padding: "5rem",}}
       styleh1={{ paddingLeft: "260px" }}
       titulo="Carros"
     >

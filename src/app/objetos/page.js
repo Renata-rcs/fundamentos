@@ -12,7 +12,7 @@ export default function Objetos() {
   ];
 
   return (
-    <Pagina style={{ backgroundColor: "#6c757d", color: "white", textAlign: "center", padding: "1rem", marginBottom: "2rem"}} titulo="Objetos">
+    <Pagina style={{ backgroundColor: "#6c757d",  padding: "2rem", marginBottom: "2rem"}} styleh1={{ color: "white", textAlign: "center"}}titulo="Objetos">
       {carros.map((item) => (
         <p key={item.id}> {item.marca}</p>
       ))}

@@ -9,7 +9,7 @@ export default function Array() {
 
     return (
 
-        <Pagina style={{ backgroundColor: "#6c757d", padding: "1rem", marginBottom: "2rem"}} styleh1={{ color: "white", textAlign: "center"}} titulo="Página de Array">
+        <Pagina style={{ backgroundColor: "#6c757d", padding: "2rem", marginBottom: "2rem"}} styleh1={{ color: "white", textAlign: "center"}} titulo="Página de Array">
 
             {carros.map(item => (
                 <p>{item}</p>
