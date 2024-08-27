@@ -1,4 +1,4 @@
-"use client";
+'use client'
 
 import { Button, Card, Col, Container, Row } from "react-bootstrap";
 import Pagina from "../components/Pagina";
@@ -47,23 +47,15 @@ export default function Carros() {
       ano: 1995,
       foto: "https://quatrorodas.abril.com.br/wp-content/uploads/2016/11/5723fab70e21634575011f03qr-635-gb-01-eps.jpeg?quality=70&strip=all&strip=all",
     },
-  ];
+  ]
 
   return (
-    <Pagina
-      style={{backgroundColor: "rgb(220, 220, 220)", color: "black", textAlign: "left", marginBottom: "2rem", padding: "5rem",}}
-      styleh1={{ paddingLeft: "260px" }}
-      titulo="Carros"
-    >
+    <Pagina titulo="Carros">
       <Row className="mx-auto" style={{ width: "70%" }}>
         {carros.map((item) => (
           <Col md={3} key={item.id} className="mb-4 px-1">
             <Card className="h-100" style={{ width: "100%" }}>
-              <Card.Img
-                variant="top"
-                src={item.foto}
-                style={{ height: "8rem", objectFit: "cover" }}
-              />
+              <Card.Img variant="top" src={item.foto} style={{ height: "8rem", objectFit: "cover" }} />
               <Card.Body className="d-flex flex-column justify-content-between">
                 <div>
                   <Card.Title>
@@ -83,6 +75,6 @@ export default function Carros() {
           </Col>
         ))}
       </Row>
-    </Pagina>
+      </Pagina>
   )
 }

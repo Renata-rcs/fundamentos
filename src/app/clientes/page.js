@@ -1,10 +1,22 @@
+"use client";
+
 import Link from "next/link";
 import Cabecalho from "../components/Cabecalho";
 import Table from "react-bootstrap/Table";
+import Pagina from "../components/Pagina";
 
 export default function Clientes() {
   return (
-    <main>
+      <Pagina titulo="Nomes">
+            {/* <Pagina
+      style={{
+        backgroundColor: "#6c757d",
+        padding: "2rem",
+        marginBottom: "2rem",
+      }}
+      styleh1={{ color: "white", textAlign: "center" }}
+      titulo="Clientes"
+    ></Pagina> */}
       <Cabecalho
         titulo="Clientes"
         subtitulo="Página de clientes usando o cabeçalho"
@@ -46,6 +58,7 @@ export default function Clientes() {
           </tr>
         </tbody>
       </Table>
-    </main>
+      </Pagina>
+    
   )
 }
