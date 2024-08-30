@@ -7,7 +7,7 @@ import Pagina from "../components/Pagina";
 
 export default function Fundamentos() {
   return (
-      <Pagina titulo="Nomes">
+      <Pagina titulo="Funadmentos">
       <Cabecalho titulo="Fundamentos" />
 
       <Container>

@@ -7,7 +7,7 @@ import Pagina from "../components/Pagina";
 
 export default function Clientes() {
   return (
-      <Pagina titulo="Nomes">
+      <Pagina titulo="Clientes">
             {/* <Pagina
       style={{
         backgroundColor: "#6c757d",

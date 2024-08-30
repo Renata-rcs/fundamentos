@@ -9,7 +9,7 @@ export default function Array() {
 
     return (
 
-        <Pagina titulo="Nomes">
+        <Pagina titulo="Array">
             {carros.map(item => (
                 <p>{item}</p>
             ))}

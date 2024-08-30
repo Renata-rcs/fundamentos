@@ -50,7 +50,7 @@ export default function Objetos() {
   ]
 
   return (
-     <Pagina titulo="Nomes">
+     <Pagina titulo="Carros">
       <Row md={4}>
       {carros.map((item) => (
         <Col className="my-2" key={item.id}>
