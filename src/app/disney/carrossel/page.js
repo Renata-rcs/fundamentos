@@ -20,7 +20,7 @@ export default function Page(){
         <Pagina titulo="Disney Carrossel">
              <Carousel>
             {personagens.map(item=>(
-              <Carousel.Item key={item.id}>
+              <Carousel.Item key={item._id}>
                 <Image width='100%' height='600' src={item.imageUrl} />
                 <Carousel.Caption>
                   <h3>{item.name}</h3>

@@ -13,15 +13,17 @@ export default function Pagina(props) {
           <Nav.Link href="/nomes">Nomes</Nav.Link>
           <Nav.Link href="/numeros">Números</Nav.Link>
           <NavDropdown title="Disney" id="disney-nav-dropdown">
-            <NavDropdown.Item href="/disney">Disney</NavDropdown.Item>
+            <NavDropdown.Item href="/disney">
+            Home
+            </NavDropdown.Item>
             <NavDropdown.Item href="/disney/cards">
-              Disney Cards
+              Cards
             </NavDropdown.Item>
             <NavDropdown.Item href="/disney/carrossel">
-              Disney Carrossel
+              Carrossel
             </NavDropdown.Item>
             <NavDropdown.Item href="/disney/tabela">
-              Disney Tabela
+              Tabela
             </NavDropdown.Item>
           </NavDropdown>
         </Nav>

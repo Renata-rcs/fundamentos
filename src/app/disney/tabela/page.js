@@ -15,7 +15,7 @@ export default function Page() {
 
   return (
     <Pagina titulo="Disney Tabela">
-      <Table striped bordered hover>
+      <Table striped bordered hover className="mt-3">
         <thead>
           <tr>
             <th>#</th>
@@ -25,11 +25,11 @@ export default function Page() {
         </thead>
         <tbody>
           {personagens.map((item) => (
-            <tr>
+            <tr  key={item._id}>
               <td>{item._id}</td>
               <td>{item.name}</td>
               <td>
-                <img src={item.imageUrl} height="50" />
+                <img src={item.imageUrl} height="100" />
               </td>
             </tr>
           ))}
